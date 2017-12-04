@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = 'Low Memory Access with AWS S3 API'
   s.authors     = ['Jared Davis']
   s.email       = 'dev@kennasecurity.com'
-  s.files       = Dir['lib/**/*']
+  s.files       = Dir['lib/**/*', 'LICENSE']
   s.homepage    = 'http://kennasecurity.com'
   s.license     = 'GPL-3.0'
 
