@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe S3Stream::Upload::InputWriter do
   subject { described_class.new buffer }
 

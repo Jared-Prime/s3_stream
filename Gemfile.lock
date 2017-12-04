@@ -4,6 +4,7 @@ PATH
     s3_stream (0.0.1)
       activesupport (~> 4.2)
       fog-aws (~> 1.4.0)
+      mime-types (~> 2.99)
       require_all (~> 1.4.0)
 
 GEM
@@ -44,6 +45,7 @@ GEM
     ipaddress (0.8.3)
     json (2.1.0)
     method_source (0.9.0)
+    mime-types (2.99.3)
     mini_portile2 (2.3.0)
     minitest (5.10.3)
     multi_json (1.12.2)
@@ -87,4 +89,4 @@ DEPENDENCIES
   simplecov (= 0.15.0)
 
 BUNDLED WITH
-   1.15.1
+   1.16.0

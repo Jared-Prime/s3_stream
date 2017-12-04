@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe S3Stream::Upload::OutputBuffer do
   subject { described_class.new output_writer, :maxsize => 2 }
 

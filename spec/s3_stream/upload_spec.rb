@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe S3Stream::Upload do
   subject { described_class.instance client, options }
 
@@ -32,7 +30,7 @@ RSpec.describe S3Stream::Upload do
     subject.io.writer.mtime = Time.parse('1-1-2001').utc
   end
 
-  feature 'streaming gzip data to S3' do
+  describe 'streaming gzip data to S3' do
     it 'uploads in parts' do
       expect(client).to receive(:initiate_multipart_upload).with(
         'fake-bucket',

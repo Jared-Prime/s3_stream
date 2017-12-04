@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe S3Stream::Entity do
   subject do
     described_class.new(uid, :client => client, :bucket => 'fake-bucket', :filename => 'message.txt')

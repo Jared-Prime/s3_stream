@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'fog-aws', '~> 1.4.0'
   s.add_dependency 'require_all', '~> 1.4.0'
   s.add_dependency 'activesupport', '~> 4.2'
+  s.add_dependency 'mime-types', '~> 2.99'
 end

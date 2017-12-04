@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe S3Stream::Download do
   subject do
     described_class.instance('some/s3/path/to/file', 'file.zip', anything)
